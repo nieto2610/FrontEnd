@@ -1,0 +1,85 @@
+body {
+  font-family: Times New Roman;
+}
+
+header {
+  text-align: center;
+  background-color: #e5e5e5;
+  margin: 0px;
+  padding-top: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo {
+  align-items: center;
+  width: 50px;
+  height: 70px;
+  left: 670px;
+  top: 21px;
+}
+
+main {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+h2, h3  {
+  margin-top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background-color: #c4c4c4;
+  color: #005677;
+}
+
+section {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#datosPersonales {
+  margin-top: 80px;
+}
+
+.datosPers {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fechas {
+  font-weight: bold;
+}
+
+p {
+  line-height: 5px;
+  margin-left: 25px;
+}
+.margen {
+  margin-left: 105px;
+}
+footer {
+  background-color: #005677;
+  height: 40px;
+  margin-top: 20px;
+  align-items: center;
+ 
+  
+}
+
+h4 { 
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 11px;
+  
+}
+#icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 772px;
+  top: 1010px;
+
+}

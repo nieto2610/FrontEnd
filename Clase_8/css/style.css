@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-position: center;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+nav a{
+    display: flex;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    
+}
+h2 {
+  text-align: center;
+}
+
+.logo {
+  align-items: center;
+  width: 160px;
+  height: 200px;
+  border-radius: 60%;
+
+  left: 670px;
+  top: 21px;
+}
+
+main {
+  margin: 0px;
+}
+
+h2,h3 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background-color: #c4c4c4;
+  color: #005677;
+}
+
+section {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#datosPersonales {
+  margin-top: 80px;
+}
+
+.datosPers {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fechas {
+  font-weight: bold;
+}
+
+p {
+  line-height: 5px;
+  margin-left: 25px;
+}
+.margen {
+  margin-left: 105px;
+}
+footer {
+  background-color: #005677;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 772px;
+  top: 996px;
+}
+.acerca {
+font-size: 20px;
+font-weight: bold;
+text-align-last: center;
+margin-inline: auto;
+padding: 40px;
+  
+
+
+
+}

@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Carla</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="img/foto.jpg" alt="Foto CV-Carla">
+            <h1>CURRICULUM VITAE DE CARLA NIETO</h1>
+
+        </header>
+
+        <section>
+            <h2>D A T O S   P E R S O N A L E S</h2>
+            <ul>
+                <li>Nombre completo: Carla Anahi Nieto</li>
+                <li>Fecha de nacimiento: 22/11/1984</li>
+                <li>Lugar de nacimiento: Jujuy - Argentina</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>F O R M A C I Ó N   A C A D É M I C A</h2>
+              <ul type="none">
+                <li> <span> 2005-2012: </span> <span>Universidad Nacional de Entre Ríos </span><br>
+                     <span>            </span> <span>Bioingeniería</span> </li>
+                <li>2018-2021: Universidad Nacional del Comahue <br>
+                               Especialidad en Higiene y Seguridad Laboral</li>
+                <li>2021-2021: Universidad Tecnológica Nacional - Resistencia <br>
+                               Diplomatura en Gestión Integral de la Calidad</li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>E X P E R I E N C I A   L A B O R A L</h2>
+            
+            <ul type="none">
+                <li>1975-1985: Desocupado
+                    Sin trabajo porquer se me rompió el batimovil</li>
+                <li>1975-1985: Desocupado
+                    Sin trabajo porquer se me rompió el batimovil</li>
+                <li>1975-1985: Desocupado
+                    Sin trabajo porquer se me rompió el batimovil</li>
+            </ul>
+
+        </section>
+
+        <footer>
+            <h2> 0343-154517703 </h2> 
+
+        </footer>
+
+
+
+
+
+
+
+
+    </main>
+    
+</body>
+</html> 
