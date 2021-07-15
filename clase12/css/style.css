@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header div.topHeader{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+
+header div.topHeader div.containerSelects span{ 
+    margin-left: 20px;
+}
+
+header div.primaryContent_Header{
+    background: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px 22px 46px;
+}
+
+header div.primaryContent_Header nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header div.primaryContent_Header nav ul li{
+    list-style: none;
+}
+
+main section.primaryText{
+    position: relative;
+}
+
+main section.primaryText img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+main section.primaryText div.textSlide{
+  position: absolute;
+  /* left: 850px; */
+  top: 200px ;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section.primaryText div.textSlide button{
+    background: #F0A83E;
+    width: 140px;
+    height: 49px;
+    
+}
+
+
+

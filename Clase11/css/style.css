@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px 20px 0px 20px;
+  background-color: #222222;
+  margin: auto;
+  align-items: center;
+}
+.NavSup {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100px;
+}
+
+.enlacesup {
+  display: flex;
+  justify-content: space-between;
+}
+.NavInf {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 150px;
+}
+
+.logo img {
+  display: block;
+  height: 70%;
+  padding: 10px;
+}
+
+body header nav ul li a {
+  color: #f3f3f3;
+  margin: 10px;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  max-width: 1024px;
+  height: 420px;
+  padding: 10px 20px 0px 20px;
+  background-color: #e5e5e5;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+main article.imagen-delivery {
+  margin-right: 20px;
+  display: flex;
+}
+main article.imagen-delivery div img {
+  height: 350px;
+  width: 490px;
+  display: flex;
+  position: relative;
+}
+
+main article.imagen-delivery p {
+  position: absolute;
+  align-content: center;
+  font-size: 24px;
+  padding-left: 20px;
+  color: #fc200c;
+  font-weight: bold;
+}
+.TextoBlanco {
+  color: #e5e5e5;
+}
+
+main article.menu {
+  display: flex;
+  justify-content: left;
+  background-color: #ffffff;
+  height: 350px;
+  width: 490px;
+  padding-right: 29px;
+}
+main article.menu div h2 {
+  font-size: 24px;
+  padding-left: 175px;
+  padding-top: 8px;
+  color: #fc200c;
+  font-weight: bold;
+  position: absolute;
+}
+main article.menu div h3 {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 90px;
+}
+main article.menu div ol li {
+  font-size: 16px;
+  font-weight: 700;
+  align-items: left;
+  margin-bottom: 5px;
+}
+main article.imagen-delivery div img {
+  height: 350px;
+  width: 490px;
+  display: flex;
+  position: relative;
+}
+.ensalada {
+  height: 129px;
+  width: 92px;
+  padding-top: 132px;
+  padding-left: 140px;
+}
+
+body footer nav ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 0px 0px 10px 0px;
+}
+body footer nav ul {
+  padding-left: 0px;
+}

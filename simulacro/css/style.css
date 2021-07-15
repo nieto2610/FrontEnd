@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  max-width: 1024px;
+  margin: 0;
+  padding: 0px;
+  
+
+  font-family: 'Roboto', sans-serif, arial;
+}
+
+:root {
+  --color-fuente-clara: #f3f3f3;
+  --color-fondo-header: #222222;
+  --color-porcentaje: #d01418;
+  --color-titulo: #000000;
+  --color-envio: #619d00;
+  --color-fondo-tarjeta: #ffffff;
+  --color-fondo-footer2: #c4c4c4;
+}
+html {
+  margin: auto;
+}
+
+body header section.Barra1 {
+  background-color: var(--color-fondo-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body header section.Barra1 nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+body header section.Barra1 nav li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--color-fuente-clara);
+  margin: 10px;
+}
+body header section.Barra1 nav li {
+  list-style-type: none;
+}
+body header section.Barra2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 512px;
+}
+
+body header section.Barra2 h1 {
+  display: flex;
+  position: absolute;
+  color: var(--color-fuente-clara);
+  margin-top: 187px;
+  font-size: 2.5em;
+}
+body header section.Barra2 h1 span {
+  color: var(--color-porcentaje);
+}
+body header section.Barra2 button {
+  background-color: var(--color-porcentaje);
+  color: var(--color-fuente-clara);
+  width: 220px;
+  height: 61px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  margin-top: 267px;
+  font-size: 1.5625em;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-fuente-clara);
+}
+body main h2 {
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body main section.Destacados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+body main section.Destacados article {
+  background-color: var(--color-fondo-tarjeta);
+  width: 265px;
+  height: 322px;
+  border: 1px solid;
+  margin: 30px;
+}
+body main section.Destacados article img {
+  margin: 30px 68px 51px;
+  height: 163px;
+  width: 129px;
+  border-radius: 5%;
+}
+body main section.Destacados article div {
+  margin-left: 20px;
+  color: var(--color-titulo);
+}
+body main section.Destacados article div h3,
+h4,
+h5 {
+  margin-bottom: 4px;
+}
+body main section.Destacados article div h3 {
+  font-size: 1.25em;
+}
+
+body main section.Destacados article div h4 {
+  font-size: 0.8125em;
+}
+body main section.Destacados article div h5 {
+  color: var(--color-envio);
+  font-size: 0.625em;
+}
+
+body main section.Estrellas {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body main section.Estrellas article img {
+  height: 135px;
+  width: 361px;
+  display: flex;
+  padding: 20px 60px 85px 60px;
+}
+body main section.Estrellas article h3 {
+  font-size: 1.5625em;
+  color: var(--color-fuente-clara);
+  display: flex;
+  position: absolute;
+  margin: -162px 0px 0px 250px;
+}
+body footer section.footer1 {
+  background-color: var(--color-fondo-header);
+  color: var(--color-fuente-clara);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 216px;
+}
+body footer section.footer1 div h3 {
+  font-size: 1.5625em;
+  margin-bottom: 20px;
+}
+body footer section.footer1 div i {
+  margin-right: 42px;
+}
+body footer section.footer2 p {
+  background-color: var(--color-fondo-footer2);
+  font-size: 0.625em;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and  (max-width: 650px){
+header {
+    flex-basis: 100%;
+}
+}
